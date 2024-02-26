@@ -6,8 +6,8 @@ pkgs.stdenv.mkDerivation rec {
 
   src = pkgs.fetchgit {
     url = "https://github.com/Ferios/ascii_player.git";
-    rev = "7bc507c4b8ee8652c831ae99aea8c56fbe916a96";
-    sha256 = "sha256-R7UtAVf+RUtjpzDEe4ovaqAUWvK7dOct0cqZZCSvmXg=";
+    rev = "9dd239d9a7476b1922147fffb7ae3fce62f644ec";
+    sha256 = "sha256-1XpvaJwrUJR7JCi3qHy6jJjGPk0nS17Os9gkfThigRA=";
   };
 
   buildInputs = [
